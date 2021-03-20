@@ -1,6 +1,5 @@
 rmarkdown::render_site()
-# rename directory _site/ to docs
-# copy index.Rmd (CV) to readme.md
-file.copy("index.Rmd","readme.md")
+shell("rename _site docs")# rename directory _site/ to docs
+file.copy("index.Rmd","readme.md",overwrite = T)# copy index.Rmd (CV) to readme.md
 
 

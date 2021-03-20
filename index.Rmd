@@ -10,13 +10,14 @@ output:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: false
 # uncomment this line to produce HTML and PDF in RStudio:
-knit: pagedown::chrome_print
+# knit: pagedown::chrome_print
 ---
 
 
 Aside
 ================================================================================
 
+<i class="fa fa-download"></i> [Télécharger en PDF sur github](https://github.com/phileas-condemine/CV_FR_pagedown/raw/master/index.pdf)
 
 ![Photo](https://avatars.githubusercontent.com/u/24205662?s=460&u=656ddfd4c840d9eb34e4aeb83baa24d0e0ba599f&v=4){width=80%}
 
