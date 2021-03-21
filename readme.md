@@ -41,9 +41,9 @@ Compétences {#skills}
 
 - Machine-learning **GLM, XGBoost/GBM, SVM** pour la résolution de problèmes en assurance : tarification, gestion de sinistres, fraude, attrition.
 
-- Traitement de données massives **PySpark** mais bien sûr **R-data.table** quand ça suffit.
+- Traitement de données massives en Python avec  **PySpark** mais bien sûr **R-data.table** quand ça suffit.
 
-- Deep-learning **Pytorch & Keras** pour la modélisation de séquences de soins ou le traitement du langage naturel
+- Deep-learning en **Python** avec **Pytorch & Keras** pour la modélisation de séquences de soins ou le traitement du langage naturel
 
 - Dashboard et outils intéractifs avec **R-Shiny**, leaflet, plotly, DT, rhandsontable...
 
