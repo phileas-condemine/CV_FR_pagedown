@@ -17,7 +17,7 @@ output:
 Aside
 ================================================================================
 
-<i class="fa fa-download"></i> [Télécharger en PDF sur github](https://github.com/phileas-condemine/CV_FR_pagedown/raw/master/index.pdf)
+<i class="fa fa-download"></i> [Télécharger en PDF sur github](https://github.com/phileas-condemine/CV_FR_pagedown/raw/master/cv_fr_Phileas_Condemine.pdf)
 
 ![Photo](https://avatars.githubusercontent.com/u/24205662?s=460&u=656ddfd4c840d9eb34e4aeb83baa24d0e0ba599f&v=4){width=80%}
 
@@ -213,7 +213,7 @@ A propos de ce CV {#disclaimer}
 
 Ce CV a été généré grâce au package R [**pagedown**](https://github.com/rstudio/pagedown).
 
-Dernière mise à jour `r Sys.Date()`.
+Mis à jour le `r Sys.Date()`.
 
 :::
 
