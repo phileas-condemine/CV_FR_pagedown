@@ -1,4 +1,7 @@
 name: "CV Philéas Condemine"
+output_dir: "docs"
+self_contained: false
+description: "Curriculum Vitae (CV) professionnel avec formation et expériences"
 navbar:
   title: "CV Philéas Condemine"
   left:
