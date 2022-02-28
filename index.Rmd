@@ -56,15 +56,28 @@ Main
 Philéas CONDEMINE {#title}
 --------------------------------------------------------------------------------
 
-### Actuellement à la recherche d'une nouvelle aventure Data après :
+### En bref
 
-3,5 ans au centre d'excellence technique d'AXA Global P&C : amélioration des techniques de **tarification** et de **gestion des sinistres** avec le *machine learning* et l'apport de données externes.
+Lead Data Scientist NLP chez Covéa depuis Octobre 2021. 
 
-3 ans au ministère de la Santé pour modéliser les **parcours de soins**, traiter les données colossales de l'assurance maladie et mettre en place des outils d'aide à la décision au **centre de crise sanitaire CoViD-19**.
+4 ans au ministère de la Santé pour modéliser les **parcours de soins** du SNDS et mettre en place des outils pour le **centre de crise sanitaire CoViD-19**.
+
+3,5 ans au centre d'excellence technique d'AXA AGPC : amélioration des techniques de **tarification** et de **gestion des sinistres** grâce au *machine learning* et aux données externes.
 
 
 Expériences professionnelles {data-icon=suitcase}
 --------------------------------------------------------------------------------
+
+
+### *Lead Data Scientist NLP*
+
+![Covéa](img/covea.jpg){width=10%} Conseil Interne Data Science
+
+Paris, France
+
+2021-Aujourd'hui
+
+- Multiple projets **NLP** **en Production** avec des problématiques de **Labellisation**, **Annotation**, **Monitoring**, **MultiLabel Topic Classification**, **Sentiment Analysis**, **Anonymisation** grâce au fine-tuning et re-entraînement de modèles type RoBERTa/CamemBERT : **Transformers HuggingFace** sur **Azure + Databricks**.
 
 ### *Senior Data Scientist* et Entrepreneur d'Intérêt Général (EIG)
 
@@ -75,11 +88,11 @@ Paris, France
 2018-2021
 
 - **Modélisation de séquences de soins** pour la prédiction de pathologies et la détection de ruptures dans les séquences de soins.
-- Classification par [**active-learning**](https://github.com/phileas-condemine/tuto_tagging_indicateurs) et [**diffusion grand public**](https://drees.shinyapps.io/Cartographie_des_indicateurs) d'indicateurs de santé.
+- Classification par [**active-learning**](https://github.com/phileas-condemine/tuto_tagging_indicateurs) et [**diffusion**](https://drees.shinyapps.io/Cartographie_des_indicateurs) d'indicateurs de santé.
 - Outil pour les ARS : [**saisie interactive**](https://phileas-condemine.github.io/Zonage_ARS/) du zonage des professions de santé
-- Contribution au **centre de crise sanitaire CoViD-19** : collecte de données auprès [des hôpitaux - respirateurs](https://respirateurs.fabrique.social.gouv.fr/) et [des laboratoires - tests, réactifs, centre de dépistage, EPI](https://laboratoires.fabrique.social.gouv.fr/). Ainsi que la mise en place de tableaux de bord statistiques sur les données d'hospitalisation SI-VIC.
-- Production d'*open-data* sur les données hospitalières du PMSI avec implémentation de contraintes d'**anonymisation** k-anonymat et l-diversité hiérarchique.
-- Mise en place de **formations** à **R et Shiny** pour les agents de la DREES puis accompagnement de projets de statistiques et dataviz.
+- Contribution au **centre de crise sanitaire CoViD-19** : collecte de données auprès [des hôpitaux - respirateurs](https://respirateurs.fabrique.social.gouv.fr/) et [des laboratoires - tests, réactifs, centre de dépistage, EPI](https://laboratoires.fabrique.social.gouv.fr/). 
+- Production d'*open-data* sur des données hospitalières avec implémentation de contraintes d'**anonymisation** k-anonymat et l-diversité
+- Mise en place de **formations** à **R et Shiny** pour les agents de la DREES
 
 ### *Actuarial Data Scientist*
 
@@ -89,10 +102,10 @@ Paris, France
 
 2014-2017
 
-- [**Innovation dans la tarification**](https://docs.google.com/presentation/d/1ObT00LWOOOI2PYufPMII10ciJOTKReESgegVQ-F4yno/edit?usp=sharing) en assurance auto et habitation en contribuant à l'amélioration des zoniers, véhiculiers, modèles de fréquence, coût moyen et propension avec des techniques de *boosting* et d'intreprétation du *machine-learning*.
-- Analyse du **coût des sinistres** (*Claim Cost Analyser*) avec prédiction du coût théorique de réparation d'un véhicule pour *scorer* les garages en tenant compte du *case-mix*. Le PoC a été réalisé avec AXA-Spain et déployé en Espagne, Italie, France avec l'appui des *Data Engineers* locaux.
+- [**Innovation dans la tarification**](https://docs.google.com/presentation/d/1ObT00LWOOOI2PYufPMII10ciJOTKReESgegVQ-F4yno/edit?usp=sharing) en assurance auto et mrh en améliorant les zoniers, véhiculiers. Tarification avec des techniques de *boosting* et d'intreprétation du *machine-learning*.
+- Analyse du **coût des sinistres** : prédiction du coût théorique pour *scorer* les garages en tenant compte du *case-mix*. Poc avec AXA-Spain, déployé en Espagne, Italie, France avec les *Data Engineers* locaux.
 - Utilisation de données textuelles pour la [gestion des sinistres litigieux](https://github.com/phileas-condemine/bodily_injury_atp).
-- [Modèle de risque des routes](http://www.ressources-actuarielles.net/C12574E200674F5B/0/AC55A21EEC4304E6C1257FB9001CA631) basé sur les données GPS des utilisateurs (télématiques).
+- [Modèle de risque des routes](http://www.ressources-actuarielles.net/C12574E200674F5B/0/AC55A21EEC4304E6C1257FB9001CA631) basé sur les données GPS des utilisateurs.
 - Mise en place de hackathons et formations à la data science pour les actuaires.
 
 ### Mémoire d'actuariat
@@ -130,7 +143,9 @@ Découverte, approfondissement et mise en pratique des techniques de *deep learn
 
 2017-2020
 
-Formation au *deep learning* : vision par ordinateur et traitement du langage naturel. Entraînement de modèle *from-scratch* mais surtout *transfer-learning* / *fine-tuning*. Application aux séquences de soins vues comme un pseudo-langage : LSTM et `r emo::ji("hug")` transformers.
+Formation au *deep learning* : vision par ordinateur et traitement du langage naturel. 
+Entraînement de modèle *from-scratch* mais surtout *transfer-learning* / *fine-tuning*. 
+Application aux séquences de soins : LSTM et `r emo::ji("hug")` transformers.
 
 
 ### [Spark & Scala](https://fr.coursera.org/specializations/scala)
@@ -153,8 +168,9 @@ CodeSchool.com
 
 2016
 
-Formation avec projet sur la pile logiciel *Stack* MEAN : Mongo, Express, Angular & Node. Développement d'une API de tarification avec Express. 
-Par la suite, cette connaissance des langages web m'a beaucoup aidé à développer des applications R-Shiny.
+Formation avec projet sur la pile logiciel *Stack* MEAN.
+Développement d'une API de tarification fast-quote avec Express. 
+Compétences Web cruciales pour le développement d'applications R-Shiny.
 
 ### *Introduction à la data science* 
 
@@ -164,7 +180,7 @@ Coursera par Bill Howe
 
 2014
 
-*Support Vector Machine*, *Gradient Boosting*, *Random Forests*, *k-means* et classification hierachique.
+*Support Vector Machine*, *Gradient Boosting*, *Random Forests*, *k-means* etc.
 
 
 ### ENSAE Paris - IP Paris
@@ -201,7 +217,7 @@ CEPE ENSAE/ENSAI
 
 ### Data Science for Actuaries DS4A
 
-Formation d'actuaires du groupe AXA aux techniques de machine learning, [text mining](https://github.com/phileas-condemine/text-mining), récupération de données externes et cartographie au cours de plusieurs Bootcamp d'une semaine organisés par mon équipe chez AXA Global P&C. Formation théorique avec la contribution d'Arthur Charpentier.
+Formation d'actuaires du groupe AXA aux techniques de data science dont [text mining](https://github.com/phileas-condemine/text-mining) à travers des Bootcamp d'une semaine organisés en interne. Formation théorique avec la contribution d'Arthur Charpentier.
 
 DS4A AGPC
 
