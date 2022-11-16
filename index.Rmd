@@ -42,7 +42,7 @@ Compétences {#skills}
 
 - Machine-learning **GLM, XGBoost/GBM, SVM** pour la résolution de problèmes en assurance : tarification, gestion de sinistres, fraude, attrition.
 
-- Traitement de données massives en **Python**-**PySpark** mais aussi **R-data.table** quand ça suffit.
+- Traitement de données massives en **Spark** et **R-data.table** quand ça suffit.
 
 - Deep-learning en **Python** - **Pytorch & Keras** pour la modélisation de séquences de soins ou le traitement du langage naturel.
 
@@ -77,7 +77,7 @@ Paris, France
 
 2021-Aujourd'hui
 
-- Multiple projets **NLP** **en Production** avec des problématiques de **Labellisation**, **Annotation**, **Monitoring**, **MultiLabel Topic Classification**, **Sentiment Analysis**, **Anonymisation** grâce au fine-tuning et re-entraînement de modèles type RoBERTa/CamemBERT : **Transformers HuggingFace** sur **Azure + Databricks**.
+- Multiple projets **NLP** **en Production** avec des problématiques de **Labellisation**, **Annotation**, **Monitoring** des modèles et des données : **Data-Drift**, **MultiLabel Topic Classification**, **Sentiment Analysis**, **Anonymisation** grâce au fine-tuning et re-entraînement de modèles type RoBERTa/CamemBERT : **Transformers HuggingFace** sur **Azure + Databricks**.
 
 ### *Senior Data Scientist* et Entrepreneur d'Intérêt Général (EIG)
 
