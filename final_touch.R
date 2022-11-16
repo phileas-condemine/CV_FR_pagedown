@@ -3,11 +3,11 @@ usethis::use_mit_license("Philéas Condemine")
 
 # unlink("docs",T,T)
 rmarkdown::clean_site(preview = FALSE)
-
+file.copy("../cv_resume_EN/index.Rmd","index_en.Rmd")
 rmarkdown::render_site()
 
-file.rename("docs/index.pdf","docs/cv_fr_Phileas_Condemine.pdf")# copy index.Rmd (CV) to readme.md
-file.copy("docs/cv_fr_Phileas_Condemine.pdf","cv_fr_Phileas_Condemine.pdf",overwrite = T)
+# file.rename("docs/index.pdf","docs/cv_fr_Phileas_Condemine.pdf")# copy index.Rmd (CV) to readme.md
+# file.copy("docs/cv_fr_Phileas_Condemine.pdf","cv_fr_Phileas_Condemine.pdf",overwrite = T)
 
 system('git config --global user.email "phileas.condemine@gmail.com"')
 system('git config --global user.name "Phileas Condemine"')
