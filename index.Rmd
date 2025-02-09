@@ -108,7 +108,7 @@ Paris, France
 
 ### *Actuarial Data Scientist*
 
-![**AXA**](https://www.axa.fr/content/dam/logo/logo-axa.svg){width=10%} AXA Global P&C
+![AXA](https://www.axa.fr/content/dam/logo/logo-axa.svg){width=10%} **AXA** Global P&C
 
 Paris, France
 
@@ -155,7 +155,9 @@ Formation {data-icon=graduation-cap data-concise=true}
 
 ### *IA Générative*
 
-RAG, Finetuning, Prompt-engineering grâce aux formations [deeplearning.ai](https://www.deeplearning.ai/courses/)
+LLM, RAG, Finetuning, Prompt-engineering
+
+[deeplearning.ai](https://www.deeplearning.ai/courses/)
 
 2023-2024
 
