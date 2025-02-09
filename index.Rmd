@@ -22,7 +22,7 @@ Aside
 
 [View in english](https://phileascondemine.com/index_en.html)
 
-<i class="fa fa-download"></i> [Télécharger en PDF sur github](https://github.com/phileas-condemine/CV_FR_pagedown/raw/master/cv_fr_Phileas_Condemine.pdf)
+<i class="fa fa-download"></i> [Télécharger en PDF sur github](https://raw.githubusercontent.com/phileas-condemine/CV_FR_pagedown/refs/heads/master/cv_fr_Phileas_Condemine.pdf)
 
 ![Photo](https://avatars.githubusercontent.com/u/24205662?s=460&u=656ddfd4c840d9eb34e4aeb83baa24d0e0ba599f&v=4){width=80%}
 
