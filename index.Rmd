@@ -46,7 +46,7 @@ Compétences {#skills}
 
 - **IA Générative** : Résumé, Auto-label, Auto-define.
 
-- Deep-learning : **Transformers** & **Pytorch** pour la classification
+- Deep-learning : **Transformers** & **Pytorch** pour la classification.
 
 - Machine-learning **GLM, XGBoost/GBM, SVM** : tarification, gestion de sinistres, fraude.
 
@@ -83,14 +83,14 @@ Paris, France
 
 2021-Aujourd'hui
 
-- **VOX.IA** : analyse de verbatim clients. [**Gagnant Cas d'Or IA**](https://www.covea.com/fr/actualites/cas-dor-du-digital-2023-covea-recompense-son-outil-danalyse-avis-clients-base)
-- **NetMessages** : proposition de selfcare en temps réel.
+- **VOX.IA** : Analyse de verbatim clients. [**Gagnant Cas d'Or IA**](https://www.covea.com/fr/actualites/cas-dor-du-digital-2023-covea-recompense-son-outil-danalyse-avis-clients-base).
+- **NetMessages** : Proposition de selfcare en temps réel.
 - **JudiCible** : Accélération de l'ouverture de litige juridique par IA Générative.
 - **IA en production** : **Annotation**, **Finetuning**, **Déploiement**, **Monitoring** du *drift*.
-- **Publication** sur le [blog Medium COV&IA](https://medium.com/@COVEIA)
+- **Publication** sur le [blog Medium COV&IA](https://medium.com/@COVEIA).
 
 
-### *Senior Data Scientist* et Entrepreneur d'Intérêt Général EIG
+### Senior Data Scientist et Entrepreneur d'Intérêt Général EIG
 
 ![**Ministère de la Santé**](img/marianne.jpg){width=10%} **Ministère de la Santé** et **Centre Crise Sanitaire CoViD-19**
 
@@ -100,13 +100,13 @@ Paris, France
 
 - **Modélisation de séquences de soins** par **deep-learning Transformers** et détection de ruptures dans les séquences de soins.
 - **Classification** par [**active-learning**](https://github.com/phileas-condemine/tuto_tagging_indicateurs) et [**diffusion**](https://drees.shinyapps.io/Cartographie_des_indicateurs) d'indicateurs de santé.
-- Outil pour les ARS : [**saisie interactive**](https://phileas-condemine.github.io/Zonage_ARS/) du zonage des professions de santé
+- Outil pour les ARS : [**saisie interactive**](https://phileas-condemine.github.io/Zonage_ARS/) du zonage des professions de santé.
 - Support au **Centre de Crise Sanitaire CoViD-19** : collecte de données [hôpitaux](https://respirateurs.fabrique.social.gouv.fr/) et [laboratoires](https://laboratoires.fabrique.social.gouv.fr/).
 - **Workflow** de calcul d'**indicateurs CoViD-19 quotidien** sur **SIDep, SIVic, VacSI**.
 - Production d'*open-data* hospitalières avec **anonymisation** : k-anonymat et l-diversité.
-- Mise en place de **formations** à **R et Shiny** pour les agents de la DREES
+- Mise en place de **formations** à **R et Shiny** pour les agents de la DREES.
 
-### *Actuarial Data Scientist*
+### Actuarial Data Scientist
 
 ![AXA](https://www.axa.fr/content/dam/logo/logo-axa.svg){width=10%} **AXA** Global P&C
 
@@ -114,10 +114,10 @@ Paris, France
 
 2014-2017
 
-- [**Innovation dans la tarification**](https://docs.google.com/presentation/d/1ObT00LWOOOI2PYufPMII10ciJOTKReESgegVQ-F4yno/edit?usp=sharing) **IARD** : amélioration **prime pure**, **zonier**, **véhiculier** grâce au *gradient-boosting* et à l'intreprétation du *machine-learning* **IML** ou **XAI**.
-- Analyse du **coût des sinistres** : déploiement d'un du coût théorique pour *scorer* les garages en tenant compte du *case-mix*.
+- [**Innovation dans la tarification**](https://docs.google.com/presentation/d/1ObT00LWOOOI2PYufPMII10ciJOTKReESgegVQ-F4yno/edit?usp=sharing) **IARD** : amélioration **prime pure**, **zonier**, **véhiculier** grâce au *gradient-boosting* et à l'interprétation du *machine-learning* **IML** ou **XAI**.
+- Analyse du **coût des sinistres** : déploiement d'un *workflow* de *scoring* des garages en tenant compte du *case-mix*.
 - Utilisation de données textuelles pour la [**gestion des sinistres litigieux**](https://github.com/phileas-condemine/bodily_injury_atp).
-- [**Modèle de risque des routes**](http://www.ressources-actuarielles.net/C12574E200674F5B/0/AC55A21EEC4304E6C1257FB9001CA631) basé sur les données **Télématiques** des utilisateurs.
+- [**Modèle de risque des routes**](http://www.ressources-actuarielles.net/C12574E200674F5B/0/AC55A21EEC4304E6C1257FB9001CA631) grâce aux données **Télématiques** des utilisateurs et **open-data** d'accidentologie géolocalisée.
 - Mise en place de **Hackathons et Formations** à la Data Science pour les Actuaires.
 
 ### Mémoire d'actuariat
@@ -130,49 +130,49 @@ Télétravail
 
 [Sinistralité des conducteurs âgés](http://www.ressources-actuarielles.net/C12574E200674F5B/0/A7CCC7ACB732ADB3C1257D8900418A17) - **mémoire finaliste du prix SCOR**.
 
-### Stagiaire Structuration Produits Dérivés (6 mois)
+### Stagiaire Structuration Produits Dérivés
 
 ![Exane BNP Paribas](https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_Exane.jpg){width=15%} **Exane BNP Paribas**
 
 Paris, France
 
-2013
+2013 (6 mois)
 
 Construction d'un indice synthétique optimal sur panier d'actions
 
-### Stagiaire Réassurance CAT-Bonds (6 mois)
+### Stagiaire Réassurance CAT-Bonds
 
 ![SCOR](https://upload.wikimedia.org/wikipedia/fr/b/b8/Logo-scor.png){width=20%} **SCOR**
 
 Paris, France
 
-2012
+2012 (6 mois)
 
-Tarification de CAT-Bonds par techniques Monte-Carlo Markov Chains MCMC
+Tarification de CAT-Bonds par techniques Monte-Carlo Markov Chains MCMC.
 
 Formation {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### *IA Générative*
+### IA Générative
 
-LLM, RAG, Finetuning, Prompt-engineering
+LLM, RAG, Finetuning, Prompt-engineering.
 
 [deeplearning.ai](https://www.deeplearning.ai/courses/)
 
 2023-2024
 
-### *Deep learning*
+### Deep learning
 
 Découverte, approfondissement et mise en pratique des techniques de *deep learning*.
 
-[fast.ai](https://www.fast.ai/), [datascientest](https://datascientest.com/), [deeplearning.ai](https://www.coursera.org/specializations/deep-learning)
+[fast.ai](https://www.fast.ai/), [datascientest](https://datascientest.com/), [deeplearning.ai](https://www.coursera.org/specializations/deep-learning).
 
 2017-2020
 
 
 ### [Spark & Scala](https://fr.coursera.org/specializations/scala)
 
-Formation au langage Scala et à la programmation avec Spark & PySpark
+Formation au langage Scala et à la programmation avec Spark & PySpark.
 
 Coursera par Martin Odersky & Heather Miller
 
@@ -187,7 +187,7 @@ CodeSchool.com
 
 2016
 
-### *Introduction à la data science* 
+### Introduction à la data science
 
 Apprentissage supervisé et non supervisé : *Support Vector Machine*, *Gradient Boosting*, *Random Forests*, *k-means* etc.
 
@@ -228,7 +228,7 @@ CEPE ENSAE/ENSAI
 
 ### [Formation au *machine learning*](https://docs.google.com/presentation/d/11TAeSxZisurpEHFow9vyJxRz_QfZlE6UQKE5dIfu5QM/edit?usp=sharing)
 
-Techniques de classification pour des données structurées : *SVM*, *Gradient Boosting*, *Random Forests*
+Techniques de classification pour des données structurées : *SVM*, *Gradient Boosting*, *Random Forests*.
 
 CEPE ENSAE/ENSAI
 
@@ -265,19 +265,19 @@ Participation à des compétitions [Kaggle](https://www.kaggle.com/arifelk) : AX
 
 
 
-**Hackathon** Covéa IA Générative pour la traduction de code SAS vers Python en (oct. 2024)
+**Hackathon** Covéa IA Générative pour la traduction de code SAS vers Python en (oct. 2024).
 
-**Hackathon** ACPR [**TechSprint IA Générative** ](https://innovation.banque-france.fr/fr/challenges/challenge-acpr-banque-france-ia-generative-llm) (fév. 2024)
+**Hackathon** ACPR [**TechSprint IA Générative** ](https://innovation.banque-france.fr/fr/challenges/challenge-acpr-banque-france-ia-generative-llm) (fév. 2024).
 
-**Meilleur modèle au Hackathon** Covea sur le thème de la résiliation en (2023)
+**Meilleur modèle au Hackathon** Covea sur le thème de la résiliation en (2023).
 
-**Hackathon ARS-IdF** "Facteurs environnementaux d'augmentation des passages aux urgences" (2019)
+**Hackathon ARS-IdF** "Facteurs environnementaux d'augmentation des passages aux urgences" (2019).
 
-[**Hackathon APHP**](https://www.aphp.fr/contenu/dat-icu-un-datathon-organise-les-20-et-21-janvier-2018-pour-rapprocher-les-reanimateurs-et) "Anomalies de prise en charge nocturne pour soins intensifs" (2018)
+[**Hackathon APHP**](https://www.aphp.fr/contenu/dat-icu-un-datathon-organise-les-20-et-21-janvier-2018-pour-rapprocher-les-reanimateurs-et) "Anomalies de prise en charge nocturne pour soins intensifs" (2018).
 
-**Hackathon AXA** "Chatbot de fast-quote API.AI" (2017)
+**Hackathon AXA** "Chatbot de fast-quote API.AI" (2017).
 
-Cartographie des [Space Invaders à Paris](https://phileas-condemine.github.io/space_invaders_map/)
+Cartographie des [Space Invaders à Paris](https://phileas-condemine.github.io/space_invaders_map/).
 
 Création d'un robot 4-roues autonome programmé avec Arduino.
 
