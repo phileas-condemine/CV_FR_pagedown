@@ -132,21 +132,21 @@ Télétravail
 
 ### Stagiaire Structuration Produits Dérivés
 
-![Exane BNP Paribas](https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_Exane.jpg){width=15%} **Exane BNP Paribas**
+![Exane BNP Paribas](https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_Exane.jpg){width=15%} **Exane BNP Paribas** (6 mois)
 
 Paris, France
 
-2013 (6 mois)
+2013
 
 Construction d'un indice synthétique optimal sur panier d'actions
 
 ### Stagiaire Réassurance CAT-Bonds
 
-![SCOR](https://upload.wikimedia.org/wikipedia/fr/b/b8/Logo-scor.png){width=20%} **SCOR**
+![SCOR](https://upload.wikimedia.org/wikipedia/fr/b/b8/Logo-scor.png){width=20%} **SCOR** (6 mois)
 
 Paris, France
 
-2012 (6 mois)
+2012
 
 Tarification de CAT-Bonds par techniques Monte-Carlo Markov Chains MCMC.
 
