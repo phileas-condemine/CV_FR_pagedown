@@ -6,7 +6,8 @@ rmarkdown::clean_site(preview = FALSE)
 file.copy("../cv_resume_EN/index.Rmd","./index_en.Rmd",overwrite = TRUE)
 rmarkdown::render_site()
 
-# file.rename("docs/index.pdf","docs/cv_fr_Phileas_Condemine.pdf")# copy index.Rmd (CV) to readme.md
+# file.rename("index.pdf","docs/cv_fr_Phileas_Condemine.pdf")# copy index.Rmd (CV) to readme.md
+file.copy("index.pdf","cv_fr_Phileas_Condemine.pdf",overwrite = TRUE)# copy index.Rmd (CV) to readme.md
 # file.copy("docs/cv_fr_Phileas_Condemine.pdf","cv_fr_Phileas_Condemine.pdf",overwrite = T)
 
 system('git config --global user.email "phileas.condemine@gmail.com"')
