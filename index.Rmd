@@ -42,15 +42,17 @@ Contact {#contact}
 Compétences {#skills}
 --------------------------------------------------------------------------------
 
-- **Expert en R**, **avancé en Python** et **confirmé en SQL & NoSQL**.
+- **Expert en Python et R** et **confirmé en SQL & NoSQL**.
 
-- Machine-learning **GLM, XGBoost/GBM, SVM** pour la résolution de problèmes en assurance : tarification, gestion de sinistres, fraude, attrition.
+- **IA Générative** : Résumé, Auto-label, Auto-define.
 
-- Traitement de données massives en **Spark** et **R-data.table** quand ça suffit.
+- Deep-learning : **Transformers** & **Pytorch** pour la classification
 
-- Deep-learning en **Python** - **Pytorch & Keras** pour la modélisation de séquences de soins ou le traitement du langage naturel.
+- Machine-learning **GLM, XGBoost/GBM, SVM** : tarification, gestion de sinistres, fraude.
 
-- Dashboard et outils intéractifs avec **R-Shiny**, leaflet, plotly, DT, rhandsontable...
+- Traitement de données massives en **Spark**.
+
+- Dashboard en Python (streamlit) ou R (Shiny).
 
 
 
@@ -62,82 +64,100 @@ Philéas CONDEMINE {#title}
 
 ### En bref
 
-Lead Data Scientist NLP chez Covéa depuis Octobre 2021. 
+2021-Présent **Lead ML-Engineer NLP** @ **Covéa** : application de l'**IA et IA générative** pour valoriser les données textuelles sur le cloud Azure Databricks.
 
-4 ans au ministère de la Santé pour modéliser les **parcours de soins** du SNDS et mettre en place des outils pour le **centre de crise sanitaire CoViD-19**.
+2028-2021 **Senior Data Scientist** @ **Ministère de la Santé** : modélisation des **parcours de soins** par **Deep-learning** et renfort au **centre de crise sanitaire CoViD-19**.
 
-3,5 ans au centre d'excellence technique d'AXA AGPC : amélioration des techniques de **tarification** et de **gestion des sinistres** grâce au *machine learning* et aux données externes.
+2014-2017 **Actuarial Data Scientist** @ **AXA** Global P&C : **tarification** et **gestion des sinistres** grâce aux **machine learning** et **données externes**.
 
 
 Expériences professionnelles {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 
-### *Lead Data Scientist NLP*
+### Lead ML-Engineer NLP
 
-![Covéa](img/covea.jpg){width=10%} Conseil Interne Data Science
+![**Covéa**](img/covea.jpg){width=20%} **COVEA** - AI Delivery
 
 Paris, France
 
 2021-Aujourd'hui
 
-- Multiple projets **NLP** **en Production** avec des problématiques de **Labellisation**, **Annotation**, **Monitoring** des modèles et des données : **Data-Drift**, **MultiLabel Topic Classification**, **Sentiment Analysis**, **Anonymisation** grâce au fine-tuning et re-entraînement de modèles type RoBERTa/CamemBERT : **Transformers HuggingFace** sur **Azure + Databricks**.
+- **VOX.IA** : analyse de verbatim clients. [**Gagnant Cas d'Or IA**](https://www.covea.com/fr/actualites/cas-dor-du-digital-2023-covea-recompense-son-outil-danalyse-avis-clients-base)
+- **NetMessages** : proposition de selfcare en temps réel.
+- **JudiCible** : Accélération de l'ouverture de litige juridique par IA Générative.
+- **IA en production** : **Annotation**, **Finetuning**, **Déploiement**, **Monitoring** du *drift*.
+- **Publication** sur le [blog Medium COV&IA](https://medium.com/@COVEIA)
 
-### *Senior Data Scientist* et Entrepreneur d'Intérêt Général (EIG)
 
-![Ministère de la Santé](img/marianne.jpg){width=10%} DREES et centre crise sanitaire CoViD-19
+### *Senior Data Scientist* et Entrepreneur d'Intérêt Général EIG
+
+![**Ministère de la Santé**](img/marianne.jpg){width=10%} **Ministère de la Santé** et **Centre Crise Sanitaire CoViD-19**
 
 Paris, France
 
 2018-2021
 
-- **Modélisation de séquences de soins** pour la prédiction de pathologies et la détection de ruptures dans les séquences de soins.
-- Classification par [**active-learning**](https://github.com/phileas-condemine/tuto_tagging_indicateurs) et [**diffusion**](https://drees.shinyapps.io/Cartographie_des_indicateurs) d'indicateurs de santé.
+- **Modélisation de séquences de soins** par **deep-learning Transformers** et détection de ruptures dans les séquences de soins.
+- **Classification** par [**active-learning**](https://github.com/phileas-condemine/tuto_tagging_indicateurs) et [**diffusion**](https://drees.shinyapps.io/Cartographie_des_indicateurs) d'indicateurs de santé.
 - Outil pour les ARS : [**saisie interactive**](https://phileas-condemine.github.io/Zonage_ARS/) du zonage des professions de santé
-- Contribution au **centre de crise sanitaire CoViD-19** : collecte de données auprès [des hôpitaux - respirateurs](https://respirateurs.fabrique.social.gouv.fr/) et [des laboratoires - tests, réactifs, centre de dépistage, EPI](https://laboratoires.fabrique.social.gouv.fr/). 
-- Production d'*open-data* sur des données hospitalières avec implémentation de contraintes d'**anonymisation** k-anonymat et l-diversité
+- Support au **Centre de Crise Sanitaire CoViD-19** : collecte de données [hôpitaux](https://respirateurs.fabrique.social.gouv.fr/) et [laboratoires](https://laboratoires.fabrique.social.gouv.fr/).
+- **Workflow** de calcul d'**indicateurs CoViD-19 quotidien** sur **SIDep, SIVic, VacSI**.
+- Production d'*open-data* hospitalières avec **anonymisation** : k-anonymat et l-diversité.
 - Mise en place de **formations** à **R et Shiny** pour les agents de la DREES
 
 ### *Actuarial Data Scientist*
 
-![AXA](https://www.axa.fr/content/dam/logo/logo-axa.svg){width=10%} AXA Global P&C
+![**AXA**](https://www.axa.fr/content/dam/logo/logo-axa.svg){width=10%} AXA Global P&C
 
 Paris, France
 
 2014-2017
 
-- [**Innovation dans la tarification**](https://docs.google.com/presentation/d/1ObT00LWOOOI2PYufPMII10ciJOTKReESgegVQ-F4yno/edit?usp=sharing) en assurance auto et mrh en améliorant les zoniers, véhiculiers. Tarification avec des techniques de *boosting* et d'intreprétation du *machine-learning*.
-- Analyse du **coût des sinistres** : prédiction du coût théorique pour *scorer* les garages en tenant compte du *case-mix*. Poc avec AXA-Spain, déployé en Espagne, Italie, France avec les *Data Engineers* locaux.
-- Utilisation de données textuelles pour la [gestion des sinistres litigieux](https://github.com/phileas-condemine/bodily_injury_atp).
-- [Modèle de risque des routes](http://www.ressources-actuarielles.net/C12574E200674F5B/0/AC55A21EEC4304E6C1257FB9001CA631) basé sur les données GPS des utilisateurs.
-- Mise en place de hackathons et formations à la data science pour les actuaires.
+- [**Innovation dans la tarification**](https://docs.google.com/presentation/d/1ObT00LWOOOI2PYufPMII10ciJOTKReESgegVQ-F4yno/edit?usp=sharing) **IARD** : amélioration **prime pure**, **zonier**, **véhiculier** grâce au *gradient-boosting* et à l'intreprétation du *machine-learning* **IML** ou **XAI**.
+- Analyse du **coût des sinistres** : déploiement d'un du coût théorique pour *scorer* les garages en tenant compte du *case-mix*.
+- Utilisation de données textuelles pour la [**gestion des sinistres litigieux**](https://github.com/phileas-condemine/bodily_injury_atp).
+- [**Modèle de risque des routes**](http://www.ressources-actuarielles.net/C12574E200674F5B/0/AC55A21EEC4304E6C1257FB9001CA631) basé sur les données **Télématiques** des utilisateurs.
+- Mise en place de **Hackathons et Formations** à la Data Science pour les Actuaires.
 
 ### Mémoire d'actuariat
 
-![AXA](https://www.axa.fr/content/dam/logo/logo-axa.svg){width=10%} AXA Belgium
+![**AXA**](https://www.axa.fr/content/dam/logo/logo-axa.svg){width=10%} **AXA** Belgium
 
 Télétravail
 
 2014
 
-Exploitation des données de tarification du portefeuille auto d'AXA Belgium pour mesurer l'impact *ceteris paribus* de l'âge sur le risque d'accident de la route avec des techniques économétriques.
-[Sinistralité des conducteurs âgés](http://www.ressources-actuarielles.net/C12574E200674F5B/0/A7CCC7ACB732ADB3C1257D8900418A17)
-Le mémoire était finaliste du prix SCOR.
+[Sinistralité des conducteurs âgés](http://www.ressources-actuarielles.net/C12574E200674F5B/0/A7CCC7ACB732ADB3C1257D8900418A17) - **mémoire finaliste du prix SCOR**.
 
-### Stages de césure
+### Stagiaire Structuration Produits Dérivés (6 mois)
 
-SCOR - Exane
+![Exane BNP Paribas](https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_Exane.jpg){width=15%} **Exane BNP Paribas**
 
 Paris, France
 
-2012-2013
+2013
 
-6 mois sur la tarification de Cat-Bonds par techniques MCMC 
-6 mois en structuration de produits dérivés et construction d'un indice synthétique basé sur un panier d'actions optimal
+Construction d'un indice synthétique optimal sur panier d'actions
 
+### Stagiaire Réassurance CAT-Bonds (6 mois)
+
+![SCOR](https://upload.wikimedia.org/wikipedia/fr/b/b8/Logo-scor.png){width=20%} **SCOR**
+
+Paris, France
+
+2012
+
+Tarification de CAT-Bonds par techniques Monte-Carlo Markov Chains MCMC
 
 Formation {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
+
+### *IA Générative*
+
+RAG, Finetuning, Prompt-engineering grâce aux formations [deeplearning.ai](https://www.deeplearning.ai/courses/)
+
+2023-2024
 
 ### *Deep learning*
 
@@ -146,10 +166,6 @@ Découverte, approfondissement et mise en pratique des techniques de *deep learn
 [fast.ai](https://www.fast.ai/), [datascientest](https://datascientest.com/), [deeplearning.ai](https://www.coursera.org/specializations/deep-learning)
 
 2017-2020
-
-Formation au *deep learning* : vision par ordinateur et traitement du langage naturel. 
-Entraînement de modèle *from-scratch* mais surtout *transfer-learning* / *fine-tuning*. 
-Application aux séquences de soins : LSTM et `r emo::ji("hug")` transformers.
 
 
 ### [Spark & Scala](https://fr.coursera.org/specializations/scala)
@@ -160,9 +176,6 @@ Coursera par Martin Odersky & Heather Miller
 
 2019
 
-En parallèle de ce MOOC Coursera, je mettais en pratique sur le *High Performance Computer* de la DREES avec les données du SNDS.
-
-
 
 ### Formation aux langages web
 
@@ -172,36 +185,36 @@ CodeSchool.com
 
 2016
 
-Formation avec projet sur la pile logiciel *Stack* MEAN.
-Développement d'une API de tarification fast-quote avec Express. 
-Compétences Web cruciales pour le développement d'applications R-Shiny.
-
 ### *Introduction à la data science* 
 
-Apprentissage supervisé et non supervisé
+Apprentissage supervisé et non supervisé : *Support Vector Machine*, *Gradient Boosting*, *Random Forests*, *k-means* etc.
 
 Coursera par Bill Howe
 
 2014
 
-*Support Vector Machine*, *Gradient Boosting*, *Random Forests*, *k-means* etc.
-
 
 ### ENSAE Paris - IP Paris
 
-Cursus ingénieur
+![ENSAE](https://www.ensae.fr/sites/default/files/Groupe%2012.png){width=20%} Cursus Ingénieur : Spécialisation **Actuariat**, cours **Data Science** et **Big Data**.
 
 Paris, France
 
 2010-2014
-
-Spécialisation actuariat et cours de **data science** et **big data** en parallèle
 
 
 
 
 Enseignement {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
+
+### Masterclass IA générative (interne COVEA)
+
+Origines et fonctionnement de l'IA Générative. Mise en pratique sur de nombreux cas d'usage. **Prompt-engineering**.
+
+COVEA
+
+2023-2025
 
 ### [Formation au *text-mining*](https://docs.google.com/presentation/d/1tXlSRL-lZW5L10xbssmzunB-EXl7tTaw9iy3RSscL-o/edit?usp=sharing)
 
@@ -221,7 +234,7 @@ CEPE ENSAE/ENSAI
 
 ### Data Science for Actuaries DS4A
 
-Formation d'actuaires du groupe AXA aux techniques de data science dont [text mining](https://github.com/phileas-condemine/text-mining) à travers des Bootcamp d'une semaine organisés en interne. Formation théorique avec la contribution d'Arthur Charpentier.
+Bootcamps de formation à la Data Science d'une semaine. Exemple : [text mining](https://github.com/phileas-condemine/text-mining). Collaborations avec [**Arthur Charpentier**](https://freakonometrics.hypotheses.org/).
 
 DS4A AGPC
 
@@ -245,11 +258,26 @@ Bside {.aside .extra-sidebar}
 Autres projets
 --------------------------------------------------------------------------------
 
+
 Participation à des compétitions [Kaggle](https://www.kaggle.com/arifelk) : AXA "Telematics", Otto "Product Classification", Quora "Deduplication", West Nile Virus "Mosquito detection".
 
-Création d'un robot 4-roues autonome programmé avec Arduino.
 
-Participation à des hackathons AXA "Chatbot de fast-quote API.AI", [APHP](https://www.aphp.fr/contenu/dat-icu-un-datathon-organise-les-20-et-21-janvier-2018-pour-rapprocher-les-reanimateurs-et) "Anomalies de prise en charge nocturne pour soins intensifs", ARS-IdF "Facteurs environnementaux d'augmentation des passages aux urgences". 
+
+**Hackathon** Covéa IA Générative pour la traduction de code SAS vers Python en (oct. 2024)
+
+**Hackathon** ACPR [**TechSprint IA Générative** ](https://innovation.banque-france.fr/fr/challenges/challenge-acpr-banque-france-ia-generative-llm) (fév. 2024)
+
+**Meilleur modèle au Hackathon** Covea sur le thème de la résiliation en (2023)
+
+**Hackathon ARS-IdF** "Facteurs environnementaux d'augmentation des passages aux urgences" (2019)
+
+[**Hackathon APHP**](https://www.aphp.fr/contenu/dat-icu-un-datathon-organise-les-20-et-21-janvier-2018-pour-rapprocher-les-reanimateurs-et) "Anomalies de prise en charge nocturne pour soins intensifs" (2018)
+
+**Hackathon AXA** "Chatbot de fast-quote API.AI" (2017)
+
+Cartographie des [Space Invaders à Paris](https://phileas-condemine.github.io/space_invaders_map/)
+
+Création d'un robot 4-roues autonome programmé avec Arduino.
 
 Contribution à la [Bulloterie](https://github.com/phileas-condemine/bulloterie) - un outil communautaire d'identification d'experts et curieux dans toutes sortes de domaines. 
 

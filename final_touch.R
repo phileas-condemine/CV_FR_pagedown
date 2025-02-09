@@ -3,7 +3,7 @@ usethis::use_mit_license("Philéas Condemine")
 
 # unlink("docs",T,T)
 rmarkdown::clean_site(preview = FALSE)
-file.copy("../cv_resume_EN/index.Rmd","index_en.Rmd")
+file.copy("../cv_resume_EN/index.Rmd","./index_en.Rmd",overwrite = TRUE)
 rmarkdown::render_site()
 
 # file.rename("docs/index.pdf","docs/cv_fr_Phileas_Condemine.pdf")# copy index.Rmd (CV) to readme.md
