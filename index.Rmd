@@ -66,7 +66,7 @@ Philéas CONDEMINE {#title}
 
 2021-Présent **Lead ML-Engineer NLP** @ **Covéa** : application de l'**IA et IA générative** pour valoriser les données textuelles sur le cloud Azure Databricks.
 
-2028-2021 **Senior Data Scientist** @ **Ministère de la Santé** : modélisation des **parcours de soins** par **Deep-learning** et renfort au **centre de crise sanitaire CoViD-19**.
+2018-2021 **Senior Data Scientist** @ **Ministère de la Santé** : modélisation des **parcours de soins** par **Deep-learning** et renfort au **centre de crise sanitaire CoViD-19**.
 
 2014-2017 **Actuarial Data Scientist** @ **AXA** Global P&C : **tarification** et **gestion des sinistres** grâce aux **machine learning** et **données externes**.
 
