@@ -62,7 +62,7 @@ Main
 Philéas CONDEMINE {#title}
 --------------------------------------------------------------------------------
 
-### En bref
+### En résumé
 
 2021-Présent **Lead ML-Engineer NLP** @ **Covéa** : application de l'**IA et IA générative** pour valoriser les données textuelles sur le cloud Azure Databricks.
 
