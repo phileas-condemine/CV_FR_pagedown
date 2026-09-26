@@ -1,4 +1,4 @@
----
+é---
 title: "CV Phileas Condemine"
 description: "Page to handle french and english versions of the resume"
 ---

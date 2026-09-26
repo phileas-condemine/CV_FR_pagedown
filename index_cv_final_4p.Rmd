@@ -1,0 +1,174 @@
+---
+title: "Philéas CONDEMINE"
+name: "CV Phileas Condemine"
+author: Phileas Condemine
+description: "Curriculum Vitae (CV) professionnel avec formation et expériences"
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    include:
+      in_header: header.html
+    css: 
+      - override.css         # OVERIDE CERTAIN FUNCTIONS OF CSS
+      - resume               # DEFAULT FILE
+    self_contained: false # set it to true for a self-contained HTML page but it'll take longer to render
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+[View in english](https://phileascondemine.com/index_en.html)
+
+<i class="fa fa-download"></i> [Télécharger en PDF sur github](https://raw.githubusercontent.com/phileas-condemine/CV_FR_pagedown/refs/heads/master/cv_fr_Phileas_Condemine.pdf)
+
+![Photo](https://avatars.githubusercontent.com/u/24205662?s=460&u=656ddfd4c840d9eb34e4aeb83baa24d0e0ba599f&v=4){width=80%}
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> [phileas.condemine](mailto:phileas.condemine@gmail.com)
+- <i class="fa fa-github"></i> [github.com](https://github.com/phileas-condemine/)
+- <i class="fa fa-gitlab"></i> [gitlab.com](https://gitlab.com/phileasc)
+- <i class="fa fa-linkedin"></i> [linkedin.com](https://www.linkedin.com/in/phil%C3%A9as-condemine-6a46025a/)
+- <i class="fa fa-phone"></i> +33 643 549 576
+
+Compétences {#skills}
+--------------------------------------------------------------------------------
+
+- **Leadership IA** : technical lead, mentoring, code reviews, onboarding, deep dives, formation.
+- **GenAI & NLP** : LLM, RAG, OCR documentaire, extraction structurée, auto-labeling, prompt engineering, évaluation.
+- **ML engineering** : Python, PyTorch, Transformers, Pydantic, Pytest, CI/CD, monitoring, observabilité.
+- **Data & Cloud** : Spark, SQL, Azure Databricks, Azure OpenAI, Azure Document Intelligence.
+- **Assurance / Réassurance** : P&C, souscription, tarification, relation client, protection juridique, documents contractuels.
+- **Apps & dataviz** : Streamlit, Shiny, dashboards métier, outils d'aide à la décision.
+
+Main
+================================================================================
+
+Philéas CONDEMINE {#title}
+--------------------------------------------------------------------------------
+
+### Profil
+
+<div style="border-left: 4px solid #2f5597; padding: 0.4rem 0 0.35rem 0.8rem; margin-bottom: 0.6rem; font-size: 0.98em;">
+<strong>Principal Data Scientist / AI Technical Lead</strong> — 10+ ans d'expérience en assurance, réassurance, santé et secteur public, à l'interface entre IA générative, NLP, software engineering, cadrage métier et delivery de produits IA en production.
+</div>
+
+**Positionnement cible** : rôle hybride hands-on / technical lead avec une forte dimension de management transverse : résolution des sujets IA les plus complexes, structuration de solutions réutilisables, mentoring de profils juniors, animation technique et collaboration étroite avec les métiers.
+
+**Depuis 2025 chez SCOR** : leadership technique sur **AI assistant**, plateforme d'IA documentaire pour automatiser et fiabiliser l'extraction d'information dans les documents de souscription **P&C Specialty**.
+
+**2021-2025 chez Covéa** : delivery de produits **NLP / IA générative** en production pour MAAF, MMA et GMF, avec cadrage métier, annotation, fine-tuning, déploiement, évaluation, conduite du changement et encadrement de profils juniors.
+
+Expériences professionnelles {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Principal Data Scientist / AI Technical Lead
+
+![SCOR](https://upload.wikimedia.org/wikipedia/fr/b/b8/Logo-scor.png){width=20%} **SCOR** - P&C / AI assistant
+
+Paris, France
+
+2025-Aujourd'hui
+
+- **Principal Data Scientist**, dernier grade de la filière Data Science chez SCOR, référent technique sur les problématiques IA les plus complexes et la diffusion de solutions robustes, réutilisables et industrialisables.
+- **Contribution hands-on à AI assistant**, plateforme d'IA documentaire combinant OCR, compréhension de documents et extraction structurée d'information pour automatiser la capture de données issues des documents de souscription P&C.
+- **Impact métier sur la chaîne de souscription** : automatisation d'une partie du travail des Technical Account Assistants (TA), appui aux underwriters, et alimentation progressive des outils de souscription, modeling et pricing.
+- **Développement dans une large codebase mature**, de plus d'un million de lignes et une vingtaine de contributeurs actifs, couvrant notamment slips, risk surveys, schedules of values, bordereaux, statements of accounts et contrats.
+- **Modernisation GenAI et software engineering** : refactoring, modularisation, structuration des sorties avec Pydantic, adoption de Pytest, amélioration des logs, du monitoring et de l'observabilité.
+- **Accélération du développement par IA générative** : usage avancé de GitHub Copilot et GitLab Duo, construction de guidelines d'usage, code reviews et sécurisation des merge requests avant UAT et production.
+- **Leadership technique transverse** : accompagnement régulier d'environ cinq data scientists, onboarding, documentation, démonstrations de composants réutilisables et animation des sessions hebdomadaires “Deep Dive Data Science”.
+
+### Lead Machine Learning Engineer NLP / Generative AI
+
+![**Covéa**](img/covea.jpg){width=20%} **Covéa** - Direction Solutions SMART IA / AI Delivery
+
+Paris, France
+
+2021-2025
+
+- **Delivery de produits IA/NLP en assurance** : cadrage, conception, développement et mise en production de solutions d'analyse de texte pour les marques MAAF, MMA et GMF, en lien avec les métiers, la relation client, le juridique, les équipes data et l'IT.
+- **Vox IA** : contribution de bout en bout à une solution unifiée d'analyse des verbatim clients, couvrant méthodologie, IA, mise en production et campagnes d'annotation avec une vingtaine de contributeurs métiers ; projet récompensé aux [Cas d'Or Banque & Assurance Digital](https://www.covea.com/fr/actualites/cas-dor-du-digital-2023-covea-recompense-son-outil-danalyse-avis-clients-base) et associé publiquement à l'analyse de 1,5 million de verbatim, 9+ projets et 60+ utilisateurs via [Kili Technology](https://kili-technology.com/case-studies/covea-customer-story).
+- **NetMessages** : mise en production en 2024 d'une solution de classification des demandes clients pour augmenter le selfcare, améliorer le routage, réduire les sollicitations des équipes relation client et contribuer à la joignabilité ; modèle finetuné atteignant publiquement 88 % de bonnes réponses.
+- **JudiCible** : conception d'une démarche combinant analyse statistique, IA générative et modèles supervisés pour améliorer l'efficacité et la qualité des ouvertures de dossiers en protection juridique, en tenant compte des biais présents dans les décisions historiques.
+- **Méthodologie IA et évaluation** : protocoles d'annotation métier, mesure du consensus inter-annotateurs, analyse des erreurs, comparaison entre modèles supervisés et IA générative, et construction de solutions robustes, évaluables et industrialisables.
+- **Recherche appliquée, encadrement et diffusion** : animation du blog [Medium Cov&IA](https://medium.com/@COVEIA), 10 articles co-signés en 2024-2025, encadrement direct de 3 alternants et 1 stagiaire, et conseil senior auprès d'une dizaine de data scientists juniors.
+
+### Senior Data Scientist et Entrepreneur d'Intérêt Général EIG
+
+![**Ministère de la Santé**](img/marianne.jpg){width=10%} **Ministère de la Santé** et **Centre Crise Sanitaire CoViD-19**
+
+Paris, France
+
+2018-2021
+
+- **Modélisation de séquences de soins** par deep learning Transformers et détection de ruptures dans les parcours de soins.
+- **Active learning et open data santé** : classification, diffusion d'indicateurs, anonymisation par k-anonymat / l-diversité et outils interactifs pour les ARS.
+- **Support au Centre de Crise Sanitaire CoViD-19** : collecte de données hôpitaux / laboratoires et workflows quotidiens sur SIDep, SIVic et VacSI.
+- **Formation et outillage** : mise en place de formations R / Shiny et développement d'applications de saisie, datavisualisation et aide au pilotage.
+
+### Actuarial Data Scientist
+
+![AXA](https://www.axa.fr/content/dam/logo/logo-axa.svg){width=10%} **AXA Global P&C**
+
+Paris, France
+
+2014-2017
+
+- **Innovation dans la tarification IARD** : amélioration de la prime pure, du zonier et du véhiculier par gradient boosting, machine learning interprétable et open data.
+- **Scoring et gestion des sinistres** : workflow de scoring des garages tenant compte du case-mix, analyse du coût des sinistres et exploitation de données textuelles pour les sinistres litigieux.
+- **Modèles actuariels avancés** : risque routier à partir de données télématiques et open data d'accidentologie ; mémoire d'actuariat sur la sinistralité des conducteurs âgés, finaliste du prix SCOR.
+- **Diffusion data science** : organisation de hackathons et formations Data Science pour les actuaires.
+
+### Expériences antérieures
+
+**SCOR** - Stagiaire Réassurance CAT-Bonds, tarification de CAT-Bonds par Monte Carlo Markov Chains, 2012.  
+**Exane BNP Paribas** - Stagiaire Structuration Produits Dérivés, construction d'un indice synthétique optimal sur panier d'actions, 2013.
+
+Formation {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### ENSAE Paris - IP Paris
+
+![ENSAE](https://www.ensae.fr/sites/default/files/Groupe%2012.png){width=20%} Cursus Ingénieur : spécialisation **Actuariat**, cours **Data Science** et **Big Data**.
+
+Paris, France
+
+2010-2014
+
+### Formations continues sélectionnées
+
+**IA générative** : LLM, RAG, fine-tuning, prompt engineering — deeplearning.ai, 2023-2024.  
+**Deep learning** : fast.ai, DataScientest, deeplearning.ai, 2017-2020.  
+**Spark & Scala** : Coursera, Martin Odersky & Heather Miller, 2019.
+
+Enseignement & transmission {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+- **Masterclass IA générative interne Covéa** : origines, fonctionnement, cas d'usage et prompt engineering, 2023-2025.
+- **Formations CEPE ENSAE/ENSAI** : text mining et machine learning pour données structurées, 2018-2020.
+- **Data Science for Actuaries** : bootcamps d'une semaine pour actuaires, collaborations avec Arthur Charpentier, 2014-2017.
+
+::: aside 
+
+A propos de ce CV {#disclaimer}
+--------------------------------------------------------------------------------
+
+Ce CV a été généré grâce au package R [**pagedown**](https://github.com/rstudio/pagedown).
+
+Mis à jour le `r Sys.Date()`.
+
+:::
+
+Bside {.aside .extra-sidebar}
+================================================================================
+
+Autres projets
+--------------------------------------------------------------------------------
+
+- **Hackathons IA / data** : ACPR TechSprint IA Générative, Covéa IA Générative SAS vers Python, meilleur modèle au hackathon Covéa résiliation, hackathons ARS-IdF / APHP / AXA.
+- **Compétitions Kaggle** : AXA Telematics, Otto Product Classification, Quora Deduplication, West Nile Virus.
+- **Projets personnels** : cartographie des Space Invaders à Paris, robot autonome Arduino, contribution à la Bulloterie.
+
